@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa5ea6d-35ff-4dd4-b843-08cb6fcd8755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Webdriver/DriverExecuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TwitterHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/UrlHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/drivers/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GalenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GalenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Webdriver/DriverExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Webdriver/DriverExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TwitterHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GalenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GalenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Webdriver/ChromeDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Webdriver/ChromeDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Webdriver/DriverExecuter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TwitterHelper.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +24,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1YCpeWr2BoLfxqtOrkbeCHIATyB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,7 +65,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GalenTest.test">
+    <configuration name="GalenTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DevTestgalenselenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GalenTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterHelper.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DevTestgalenselenium" />
       <extension name="coverage">
@@ -73,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GalenTest.test" />
         <item itemvalue="JUnit.TwitterHelper.test" />
       </list>
     </recent_temporary>
@@ -107,11 +129,42 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Webdriver/DriverExecutor.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Webdriver/DriverExecutor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Webdriver/DriverExecutor.java</url>
+          <line>6</line>
+          <properties field="driver" class="Webdriver.DriverExecutor" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="driver" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

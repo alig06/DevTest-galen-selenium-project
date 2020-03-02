@@ -18,7 +18,6 @@ public class ChromeDriverManager
         ChromeOptions chromeOptions = chromeOptions();
 
         DesiredCapabilities desiredCapabilities = desiredCapabilities(chromeOptions);
-
         System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver");
         WebDriver driver = new ChromeDriver(desiredCapabilities);
 

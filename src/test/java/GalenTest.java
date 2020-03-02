@@ -1,6 +1,13 @@
-import utils.TwitterHelper;
+import org.junit.jupiter.api.Test;
 
-public class GalenTest
+import Webdriver.DriverExecutor;
+
+public class GalenTest extends DriverExecutor
 {
+
+    @Test
+    public void test(){
+        System.out.println(driver);
+    }
 
 }
