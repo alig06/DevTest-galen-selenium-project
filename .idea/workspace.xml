@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa5ea6d-35ff-4dd4-b843-08cb6fcd8755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractGalenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/LayoutDesignHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/drivers/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GalenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GalenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Webdriver/ChromeDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Webdriver/DriverExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Webdriver/DriverExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TwitterHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GalenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GalenTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Webdriver/ChromeDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Webdriver/ChromeDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Webdriver/DriverExecuter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TwitterHelper.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
